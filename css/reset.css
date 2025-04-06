@@ -176,13 +176,13 @@
   }
 
   html::-webkit-scrollbar-thumb{
-    background: rgb(17, 120, 255);
+    background: var(--primary-color)
   }
 
   /* variables */
 
   :root{
-    --primary-color: #236fff;
+    --primary-color: blueviolet;
     --secondary-text-color: #222222;
     --background-color: #f7f7f8;
     --padding-global: 1rem 5rem;
